@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  margin: auto;
+  padding: 30px;
+}
+
+/**Desktop Query*/
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.profile-container {
+  padding: 55px;
+  text-align: center;
+}
+
+.profileImage,
+h1,
+span {
+  margin-bottom: 30px;
+}
+
+.profile-container h2 {
+  font-weight: 650;
+  background: -webkit-linear-gradient(#16a085, #f4d03f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

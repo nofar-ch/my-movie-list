@@ -1,0 +1,24 @@
+.movieDetails,
+.movieDetails img,
+h4 {
+  margin: auto;
+  text-align: center;
+}
+
+.movieDetails img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.movieDetails h3 {
+  margin: 20px;
+}
+.favoriteIcon {
+  position: absolute;
+  width: 80px;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}

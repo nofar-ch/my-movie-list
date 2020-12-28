@@ -1,0 +1,41 @@
+.signOutBtn,
+.movieListBtn {
+  cursor: pointer;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 10px;
+  padding: 6px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 8px;
+  display: block;
+}
+
+.movieListBtn {
+  background-image: linear-gradient(
+    to right,
+    #16a085 0%,
+    #f4d03f 51%,
+    #16a085 100%
+  );
+}
+
+.signOutBtn {
+  background-image: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #f4d03f 51%,
+    #ff0000 100%
+  );
+}
+
+.movieListBtn:hover,
+.signOutBtn:hover {
+  background-position: right center; /* direction of the change */
+  color: #fff;
+  text-decoration: none;
+}

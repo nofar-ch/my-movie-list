@@ -1,0 +1,101 @@
+.number {
+  font-family: Georgia, Times, "Times New Roman", serif, Times, serif,
+    "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 20px;
+}
+.starsNumber {
+  position: relative;
+  width: 30px;
+}
+
+.starsNumber img {
+  width: 30px;
+}
+
+.header {
+  position: relative;
+  padding: 18px;
+}
+
+.header h3 {
+  text-align: center;
+}
+
+.liBtn {
+  cursor: pointer;
+  background-color: rgba(235, 240, 255, 0.74);
+  margin: 2px;
+}
+
+#favoriteListBtn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 6px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 8px;
+  display: block;
+  background-image: linear-gradient(
+    to right,
+    #16a085 0%,
+    #f4d03f 51%,
+    #16a085 100%
+  );
+}
+
+#favoriteListBtn:hover {
+  background-position: right center; /* direction of the change */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
